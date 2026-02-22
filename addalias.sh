@@ -98,4 +98,4 @@ fi
 [[ -z "$FILE" ]] && die "${FILE} doesn't exist"
 
 echo "alias ${NAME}=\"${CMD}\"" >> "$FILE"
-printf '\nOpen a new terminal or run:\n  source %s\n\n' "$FILE";}
+printf '\nOpen a new terminal or run:\n  source %s\n\n' "$FILE"
